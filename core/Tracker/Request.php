@@ -20,6 +20,7 @@ use Piwik\Network\IPUtils;
 use Piwik\Piwik;
 use Piwik\Plugins\CustomVariables\CustomVariables;
 use Piwik\Tracker;
+use Piwik\Cache as PiwikCache;
 
 /**
  * The Request object holding the http parameters for this tracking request. Use getParam() to fetch a named parameter.
@@ -108,8 +109,6 @@ class Request
      */
     protected function authenticateTrackingApi($tokenAuth)
     {
-        static $authenticatedCache = array();
-
         $shouldAuthenticate = TrackerConfig::getConfigValue('tracking_requests_require_authentication');
 
         if ($shouldAuthenticate) {
@@ -125,17 +124,18 @@ class Request
                 $tokenAuth = Common::getRequestVar('token_auth', false, 'string', $this->params);
             }
 
-            if (isset($authenticatedCache[$idSite][$tokenAuth])) {
+            $authenticatedCache = PiwikCache::getTransientCache();
+            $cacheKey = 'tracker_request_authentication_' . $idSite . '_' . $tokenAuth;
+
+            if ($authenticatedCache->contains($cacheKey)) {
                 Common::printDebug("token_auth is authenticated in cache!");
-                $this->isAuthenticated = $authenticatedCache[$idSite][$tokenAuth];
+                $this->isAuthenticated = $authenticatedCache->fetch($cacheKey);
                 return;
-            } elseif (!array_key_exists($idSite, $authenticatedCache)) {
-                $authenticatedCache[$idSite] = array();
             }
 
             try {
                 $this->isAuthenticated = self::authenticateSuperUserOrAdmin($tokenAuth, $idSite);
-                $authenticatedCache[$idSite][$tokenAuth] = $this->isAuthenticated;
+                $authenticatedCache->save($cacheKey, $this->isAuthenticated);
             } catch (Exception $e) {
                 $this->isAuthenticated = false;
             }
