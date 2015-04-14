@@ -37,8 +37,8 @@
         "PiwikUpdatedSuccessfully": "Το Piwik αναβαθμίστηκε επιτυχώς!",
         "PiwikWillBeUpgradedFromVersionXToVersionY": "Η βάση δεδομένων Piwik θα αναβαθμιστεί από την έκδοση %1$s στην έκδοση %2$s.",
         "ReadyToGo": "Έτοιμοι για να συνεχίσετε;",
-        "TheFollowingDimensionsWillBeUpgradedX": "Οι ακόλουθες διαστάσεις θα ενημερωθούν: %s.",
         "TheFollowingPluginsWillBeUpgradedX": "Τα ακόλουθα πρόσθετα θα αναβαθμιστούν: %s.",
+        "TheFollowingDimensionsWillBeUpgradedX": "Οι ακόλουθες διαστάσεις θα ενημερωθούν: %s.",
         "ThereIsNewPluginVersionAvailableForUpdate": "Ορισμένα πρόσθετα που χρησιμοποιείτε έχουν ενημερωθεί στην Αγορά:",
         "ThereIsNewVersionAvailableForUpdate": "Υπάρχει νέα έκδοση του Piwik διαθέσιμη για λήψη",
         "TheUpgradeProcessMayFailExecuteCommand": "Αν έχετε μια μεγάλη βάση δεδομένων Piwik, οι ενημερώσεις ίσως κρατήσουν αρκετό χρόνο στο φυλλομετρητή. Σε αυτή τη περίπτωση, μπορείτε να εκτελέσετε της ενημερώσεις από τη γραμμή εντολών: %s",
@@ -50,12 +50,12 @@
         "UpgradeComplete": "Η αναβάθμιση ολοκληρώθηκε!",
         "UpgradePiwik": "Αναβάθμιση Piwik",
         "VerifyingUnpackedFiles": "Επιβεβαίωση των ασυμπίεστων αρχείων",
-        "ViewVersionChangelog": "Δείτε τις αλλαγές για αυτή την έκδοση:",
         "WarningMessages": "Προειδοποιητικά μηνύματα:",
         "WeAutomaticallyDeactivatedTheFollowingPlugins": "Απενεργοποιήθηκαν τα παρακάτω πρόσθετα: %s",
         "YouCanUpgradeAutomaticallyOrDownloadPackage": "Μπορείτε να αναβαθμίσετε στην έκδοση %s αυτόματα ή λάβετε το πακέτο και εγκαταστήστε τη χειροκίνητα:",
         "YouCouldManuallyExecuteSqlQueries": "Αν δεν μπορείτε να χρησιμοποιήσετε τη γραμμή εντολών για την ενημέρωση και αν το Piwik αποτύχει να αναβαθμιστεί (λόγω λήξης χρόνου της βάσης δεδομένων, του φυλλομετρητή ή όποια άλλη αιτία), μπορείτε να εκτελέσετε της ερωτήματα SQL χειροκίνητα για να ενημερώσετε το Piwik.",
         "YouMustDownloadPackageOrFixPermissions": "Το Piwik δεν μπορεί να αντικαταστήσει την υπάρχουσα εγκατάσταση. Μπορείτε να διορθώσετε τα δικαιώματα πρόσβασης των φακέλων\/αρχείων ή κατεβάστε το πακέτο και εγκαταστήστε την έκδοση %s χειροκίνητα.",
-        "YourDatabaseIsOutOfDate": "Η βάση δεδομένων του Piwik είναι παλιά και πρέπει να αναβαθμιστεί προτού συνεχίσετε."
+        "YourDatabaseIsOutOfDate": "Η βάση δεδομένων του Piwik είναι παλιά και πρέπει να αναβαθμιστεί προτού συνεχίσετε.",
+        "ViewVersionChangelog": "Δείτε τις αλλαγές για αυτή την έκδοση:"
     }
 }

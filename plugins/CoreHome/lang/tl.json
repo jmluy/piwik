@@ -3,7 +3,6 @@
         "CategoryNoData": "Walang data sa kategoryang ito. Subukan ang \"Isama ang lahat ng populasyon\".",
         "CheckForUpdates": "Suriin kung may mga update",
         "CheckPiwikOut": "Suriin ang Piwik!",
-        "ClickRowToExpandOrContract": "I-click ang hanay na ito, upang palawakin o ikontrata ang subtable",
         "CloseWidgetDirections": "Maaari mong isara ang widget na ito sa pamamagitan ng pag-click sa icon na 'X' na nasa tuktok ng widget.",
         "DataForThisReportHasBeenPurged": "Ang data para sa ulat na ito ay higit sa %s na buwang gulang at ito ay na-purge na.",
         "DataTableExcludeAggregateRows": "Ang pinagsama-samang mga hilera ay ipinapakita %s Itago ang mga ito",
@@ -41,7 +40,6 @@
         "PeriodWeeks": "mga linggo",
         "PeriodYear": "Taon",
         "PeriodYears": "mga taon",
-        "PivotBySubtable": "Ang ulat na ito ay hindi umiikot %s Paikutin ng %s",
         "ReportGeneratedOn": "Ang ulat ay ginawa sa %s",
         "ReportGeneratedXAgo": "Ang ulat ay ginawa %s na ang nakalilipas",
         "SharePiwikLong": "Hi! Nakakita ako ng isang magandang piraso ng libreng software: Piwik!\n\nHahayaan ka ng Piwil na subaybayan ang mga bisita sa iyong website ng libre. Dapat mo talagang tingan ito!",
@@ -52,10 +50,12 @@
         "SupportPiwik": "Suportahan ang Piwik!",
         "TableNoData": "Walang data para sa talahanayang ito.",
         "ThereIsNoDataForThisReport": "Walang data para sa ulat na ito.",
-        "UndoPivotBySubtable": "Ang ulat na ito ay napaikot %s I-undo ang pagpaikot",
         "UnFlattenDataTable": "Ang ulat ay flat %s Gawin itong hierarchical",
         "ViewAllPiwikVideoTutorials": "Tingnan ang lahat Piwik Video Tutorials",
         "WebAnalyticsReports": "Mga Ulat ng Analitiko ng Web",
-        "YouAreUsingTheLatestVersion": "Ginagamit mo ang pinaka bagong bersyon ng Piwik"
+        "YouAreUsingTheLatestVersion": "Ginagamit mo ang pinaka bagong bersyon ng Piwik",
+        "ClickRowToExpandOrContract": "I-click ang hanay na ito, upang palawakin o ikontrata ang subtable",
+        "UndoPivotBySubtable": "Ang ulat na ito ay napaikot %s I-undo ang pagpaikot",
+        "PivotBySubtable": "Ang ulat na ito ay hindi umiikot %s Paikutin ng %s"
     }
 }

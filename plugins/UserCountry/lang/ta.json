@@ -1,5 +1,6 @@
 {
     "UserCountry": {
+        "continent_ant": "அன்டார்டிகா",
         "country_ac": "அஷன்ஷியன் தீவு",
         "country_ad": "அன்டோரா",
         "country_ae": "ஐக்கிய அரபு கூட்டாட்சி",
@@ -204,6 +205,7 @@
         "country_sc": "செஷெல்ஸ்",
         "country_sd": "சூடான்",
         "country_se": "ஸ்வீடன்",
+        "country_sf": "பின்லாந்து",
         "country_sg": "சிங்கப்பூர்",
         "country_sh": "செயின்ட் ஹெலெனா",
         "country_si": "ஸ்லோவேனியா",
@@ -239,6 +241,7 @@
         "country_tz": "டான்சானியா",
         "country_ua": "உக்ரைன்",
         "country_ug": "உகாண்டா",
+        "country_uk": "பிரிடிஷ் கூட்டரசு",
         "country_um": "யுனைட்டட் ஸ்டேட்ஸும் சிறிய அவுட்லைன் தீவுகளும்",
         "country_us": "ஐக்கிய அமெரிக்க குடியரசு",
         "country_uy": "உருகுவே",
@@ -256,6 +259,7 @@
         "country_yt": "மயோத்",
         "country_za": "தென் ஆப்ரிக்கா",
         "country_zm": "சாம்பியா",
-        "country_zw": "ஜிம்பாப்வே"
+        "country_zw": "ஜிம்பாப்வே",
+        "Location": "இடம்"
     }
 }

@@ -3,7 +3,6 @@
         "CategoryNoData": "Geen data in deze categorie. Probeer \"Toon alle data\".",
         "CheckForUpdates": "Controleer op updates",
         "CheckPiwikOut": "Kijk eens naar Piwik!",
-        "ClickRowToExpandOrContract": "Klik deze regel om de tabel te openen of te sluiten.",
         "ClickToEditX": "Klik om %s te bewerken",
         "CloseWidgetDirections": "Je kunt deze widget sluiten door op het 'X' icoon bovenaan de widget te klikken.",
         "DataForThisReportHasBeenPurged": "De data voor dit rapport was meer dan %s maanden oud en is reeds opgeschoond.",
@@ -61,6 +60,9 @@
         "UnFlattenDataTable": "De rapportweergave is vlak %s Maak het hierarchisch",
         "ViewAllPiwikVideoTutorials": "Bekijk alle Piwik Video Tutorials",
         "WebAnalyticsReports": "Web Analyse rapporten",
-        "YouAreUsingTheLatestVersion": "Je gebruikt de laatste versie van Piwik!"
+        "YouAreUsingTheLatestVersion": "Je gebruikt de laatste versie van Piwik!",
+        "ClickRowToExpandOrContract": "Klik deze regel om de tabel te openen of te sluiten.",
+        "UndoPivotBySubtable": "Dit rapport wordt als een draaitabel getoond, %s schakel de draaitabel uit.",
+        "PivotBySubtable": "Dit rapport wordt niet als een draaitabel getoond, %s maak een draaitabel op basis van %s"
     }
 }

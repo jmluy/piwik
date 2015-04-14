@@ -5,14 +5,16 @@
         "Active": "Aktívny",
         "Deactivate": "Deaktivovať",
         "Inactive": "Neaktívny",
+        "PluginsExtendPiwik": "Moduly rozširujú funkcionalitu projektu Piwik.",
         "OncePluginIsInstalledYouMayActivateHere": "Po nainštalovaní modulu ho tu môžete aktivovať, alebo deaktivovať.",
         "PluginHomepage": "Domovská stránka modulu",
-        "PluginsExtendPiwik": "Moduly rozširujú funkcionalitu projektu Piwik.",
+        "PluginKeywords": "Kľúčové slová",
         "PluginsManagement": "Správa modulov",
         "Status": "Stav",
         "Theme": "Motív",
         "Themes": "Motívy",
         "ThemesManagement": "Spravovať motívy",
-        "Version": "Verzia"
+        "Version": "Verzia",
+        "Websites": "Stránky"
     }
 }

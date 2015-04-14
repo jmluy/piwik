@@ -1,12 +1,12 @@
 {
     "Insights": {
         "DayComparedToPreviousDay": "предыдущий день",
-        "DayComparedToPreviousWeek": "тот же день неделей ранее",
-        "DayComparedToPreviousYear": "тот же день в предыдущем году",
+        "DayComparedToPreviousWeek": "Тот же день неделей раньше",
+        "DayComparedToPreviousYear": "тот же день годом раньше",
         "Filter": "Фильтр",
         "FilterOnlyNew": "Только новые",
         "MonthComparedToPreviousMonth": "предыдущий месяц",
-        "MonthComparedToPreviousYear": "тот же месяц годом ранее",
+        "MonthComparedToPreviousYear": "этот же месяц годом раньше",
         "WeekComparedToPreviousWeek": "предыдущая неделя",
         "YearComparedToPreviousYear": "прошлый год"
     }

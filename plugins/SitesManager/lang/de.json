@@ -64,6 +64,7 @@
         "ShowTrackingTag": "Tracking-Code anzeigen",
         "Sites": "Webseiten",
         "SiteSearchUse": "Piwik kann auswerten, wonach Besucher in der internen Suche der Webseite suchen.",
+        "SiteWithoutDataTitle": "Bisher wurden keine Daten aufgezeichnet",
         "SuperUserAccessCan": "Ein Nutzer mit Hauptadministrator-Berechtigung kann ebenfalls %sglobale Einstellungen%s für neue Webseiten vornehmen.",
         "Timezone": "Zeitzone",
         "TrackingSiteSearch": "Die interne Suche auswerten",

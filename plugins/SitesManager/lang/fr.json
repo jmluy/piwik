@@ -61,7 +61,7 @@
         "SelectDefaultCurrency": "Vous pouvez sélectionner la devise par défaut pour les nouveaux sites web.",
         "SelectDefaultTimezone": "Vous pouvez sélectionner le fuseau horaire par défaut pour les nouveaux sites web.",
         "ShowTrackingTag": "Afficher le code",
-        "Sites": "Sites",
+        "Sites": "Sites web",
         "SiteSearchUse": "Vous pouvez utiliser Piwik pour suivre et effectuer un rapport sur ce que vos visiteurs cherchent sur le moteur de recherche interne de votre site web.",
         "SuperUserAccessCan": "Un utilisateur avec un accès super utilisateur peut aussi %sconfigurer les paramètres globaux%s pour les nouveaux sites web.",
         "Timezone": "Fuseau horaire",
